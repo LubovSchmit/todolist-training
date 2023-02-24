@@ -1,10 +1,11 @@
 .app {
   padding: 30px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
 
 
 }
 
-/*.app > div {
-  margin-right: 50px;
-}*/

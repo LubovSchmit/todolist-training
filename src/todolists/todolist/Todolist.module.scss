@@ -1,0 +1,11 @@
+.todolistContainer {
+    border: 1px solid blue;
+    margin: 10px;
+
+    .activeFilter{
+        background-color: darksalmon;
+    }
+    .isDone{
+        opacity: 0.5;
+    }
+}
