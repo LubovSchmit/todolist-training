@@ -3,7 +3,6 @@ import style from './AddItemInputForm.module.scss'
 
 
 type PropsType = {
-
     addItem: (title: string) => void
 }
 
