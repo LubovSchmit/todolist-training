@@ -30,7 +30,6 @@ export const Todolist = (props: PropsType) => {
     const onChangeTodolistTitle = (newTodolistTitle: string) => {
         props.changeTodolistTitle(props.id, newTodolistTitle)
     }
-
     const onAllClickHandler = () => props.changeTodolistFilter('all', props.id)
     const onActiveClickHandler = () => props.changeTodolistFilter('active', props.id)
     const onCompletedClickHandler = () => props.changeTodolistFilter('completed', props.id)
